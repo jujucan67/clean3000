@@ -205,6 +205,7 @@ label {
     display: inline-block;
     text-align: center;
     margin: 6px;
+    flex-wrap: wrap;
     
 }
 
@@ -232,12 +233,21 @@ input[type="submit"] {
     padding: 10px;
 }
 
-.signature1 {
+.observation{
     text-align: center;
-    display: flexbox;
+    display: inline-flexbox;
 }
 
-.titre {
-    text-align: center;
+.signature1 {
+    flex-wrap: wrap;
+}
+
+
+
+/* plan */
+
+.container2 {
     width: 50px;
+    text-align: center;
+    display: inline;
 }
