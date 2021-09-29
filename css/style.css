@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'bebasregular';
+    src: url('../fonts/BEBAS___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.block {
+    padding: 5rem 0;
+}
+
+.container {
+    max-width: 110rem;
+    padding: 0.5rem 1rem;
+    margin: 0 auto;
+}
+
+.element a {
+    color: white;
+    text-decoration: none;
+    border: 0.2rem solid #9ec3ec;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+/* HEADER */
+header {
+    background-color: #9ec3ec;
+}
+
+header .elements {
+    justify-content: space-between;
+}
+
+header .elements > a {
+    font-family: 'bebasregular';
+    font-size: 3.6rem;
+    letter-spacing: -0.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+header small {
+    letter-spacing: normal;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+header nav ul li a {
+    color: white;
+    border-top: 0.2rem solid white;
+    border-bottom: 0.2rem solid white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    border: 0;
+}
+
+/* PRESENTATION */
+#Presentation {
+    background-image: url("../img/vitre.jpg");
+    background-size: cover;
+}
+
+#Presentation .container {
+    padding: 6.25rem 1rem;
+}
+
+h1, #Presentation p {
+    display: inline-block;
+    box-shadow: 1rem 1rem 3rem rgb(5, 28, 102);
+    padding: 1rem;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5.4rem;
+    text-transform: uppercase;
+    background-color: #9ec3ec;
+    color: white;
+}
+
+#Presentation p {
+    font-size: 2.4rem;
+    background-color: #9ec3ec;
+    color: white;
+}
+
+.elements {
+    display: flex;
+}
+
+/* présentation de l'entreprise */
+
+#Presentation1 .element {
+    width: 25%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.element img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
