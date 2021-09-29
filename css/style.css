@@ -209,8 +209,6 @@ label {
     
 }
 
-
-
 input,
 textarea {
     width: 249px;
@@ -240,6 +238,7 @@ input[type="submit"] {
 
 .signature1 {
     flex-wrap: wrap;
+    text-align: center;
 }
 
 
