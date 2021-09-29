@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'bebasregular';
-    src: url('../fonts/BEBAS___-webfont.woff') format('woff');
+    font-family: "bebasregular";
+    src: url("../fonts/BEBAS___-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -15,7 +15,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
 }
 
@@ -47,7 +47,7 @@ header .elements {
 }
 
 header .elements > a {
-    font-family: 'bebasregular';
+    font-family: "bebasregular";
     font-size: 3.6rem;
     letter-spacing: -0.2rem;
     text-transform: uppercase;
@@ -85,7 +85,8 @@ header nav ul li a:hover {
     padding: 6.25rem 1rem;
 }
 
-h1, #Presentation p {
+h1,
+#Presentation p {
     display: inline-block;
     box-shadow: 1rem 1rem 3rem rgb(5, 28, 102);
     padding: 1rem;
@@ -125,3 +126,118 @@ h1 {
     text-align: center;
 }
 
+/* CONTACT */
+#contact .element {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact .element iframe {
+    width: 100%;
+    min-height: 37rem;
+    text-align: center;
+}
+
+.form-group {
+    padding: 1rem 0;
+}
+
+form {
+    padding: 0 2.4rem;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    min-height: 4.8rem;
+    padding: 1.6rem;
+    margin-top: 0.8rem;
+    border-radius: 0.8rem;
+    box-shadow: none;
+    border: 0.1rem solid rgb(14, 13, 13);
+    text-align: center;
+}
+
+select {
+    height: 4rem;
+}
+
+input[type="submit"] {
+    color: #9ec3ec;
+    border: 0.1rem solid black;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #9ec3ec;
+    color: white;
+}
+
+.container1 {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* avis de passage*/
+
+ 
+p {
+    margin-top: 0px;
+    text-align: center;
+    size: 15px;
+}
+
+fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+label {
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    margin: 6px;
+    
+}
+
+
+
+input,
+textarea {
+    width: 249px;
+}
+
+textarea {
+    height: 100px;
+}
+
+select {
+    width: 254px;
+}
+
+input[type="checkbox"] {
+    width: 10px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    padding: 10px;
+}
+
+.signature1 {
+    text-align: center;
+    display: flexbox;
+}
+
+.titre {
+    text-align: center;
+    width: 50px;
+}
